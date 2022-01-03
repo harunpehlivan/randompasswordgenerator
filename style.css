@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro|Roboto);
+body {
+  background: rgb(31, 26, 51);
+  color: white;
+}
+
+.make-small {
+  font-size: 10px;
+}
+
+.twitter {
+  color: #ddd;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  width: 140px;
+  color: #444;
+}
+
+.random {
+  color: #6FCB70;
+}
+
+.pass {
+  color: #6EE384;
+}
+
+code{
+  display: none;
+  background:#F8F8FF; 
+  border: #7EE57F solid 1px; 
+  padding:6px;
+  font-type: monospaced;
+  font-family: 'Source Code Pro', monospaced;
+}
+
+.generator {
+  color: #75D677;
+}
+button {
+  outline: none;
+  border: 1px solid transparent;
+  background: #4F9D69;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #68D89B;
+}
+
+#output {
+  font-size: 25px;
+  color: #777;
+  text-align: center;
+}
